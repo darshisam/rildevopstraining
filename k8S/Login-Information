@@ -1,0 +1,3 @@
+url : https://100.27.45.171/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/cluster?namespace=default
+username : admin
+password : INoUa63Y476LC3h8QBY1fJs7mYVxUedh
