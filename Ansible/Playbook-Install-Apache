@@ -1,0 +1,7 @@
+---
+- hosts: hostname
+# hostname= localhost
+  remote_user: devops
+  tasks:
+    - name: install apache2
+      apt: name=apache2 update_cache=yes state=latest
