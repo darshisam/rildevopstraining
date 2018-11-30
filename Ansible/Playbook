@@ -1,0 +1,7 @@
+-
+ name: Test connectivity to target servers
+ hosts: <hostname>
+ #Use webservers as ansilbe client group
+ tasks:
+   - name: Ping test
+     ping:
