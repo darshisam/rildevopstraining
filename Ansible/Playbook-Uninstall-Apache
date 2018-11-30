@@ -1,0 +1,7 @@
+---
+- hosts: <hostname>
+# hostnaem = localhost
+  remote_user: devops
+  tasks:
+    - name: remove apache2
+      apt: name=apache2 state=absent
